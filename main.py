@@ -34,5 +34,10 @@ store3.add_item("Сыр", 5.0)
 store3.add_item("Колбаса", 4.5)
 
 
-
+# Тестируем методы
+print("Название магазина:", store1.name)
+print("Адрес магазина:", store1.address)
+print("Товар и цена:", store1.get_price("Хлеб"))
+store1.update_price("Хлеб", 1.7)
+print("Обновленная цена товара:", store1.get_price("Хлеб"))
 
