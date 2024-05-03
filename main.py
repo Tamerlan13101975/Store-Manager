@@ -17,3 +17,9 @@ class Store:
     def update_price(self, item, new_price):
         if item in self.items:
             self.items[item] = new_price
+
+
+# Создаем несколько магазинов
+store1 = Store("Магазин 1", "Улица Ленина, 15")
+store2 = Store("Магазин 2", "Улица Мира, 22")
+store3 = Store("Магазин 3", "Улица Пушкина, 38")
