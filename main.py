@@ -23,3 +23,16 @@ class Store:
 store1 = Store("Магазин 1", "Улица Ленина, 15")
 store2 = Store("Магазин 2", "Улица Мира, 22")
 store3 = Store("Магазин 3", "Улица Пушкина, 38")
+
+
+# Добавляем товары в магазины
+store1.add_item("Хлеб", 1.5)
+store1.add_item("Молоко", 2.0)
+store2.add_item("Яблоки", 0.5)
+store2.add_item("Бананы", 0.75)
+store3.add_item("Сыр", 5.0)
+store3.add_item("Колбаса", 4.5)
+
+
+
+
